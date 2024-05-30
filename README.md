@@ -1,3 +1,6 @@
+Sure, here is a sample `README.md` file for your GitHub repository containing the Python and Arduino scripts for your facial recognition attendance system project:
+
+```markdown
 # Facial Recognition Attendance System
 
 This project is a facial recognition attendance system that uses an ESP32-CAM module to capture images and a Python script to process the images, recognize faces, and log attendance in a CSV file.
@@ -60,3 +63,21 @@ This project is a facial recognition attendance system that uses an ESP32-CAM mo
 │   └── (attendance CSV files will be saved here)
 ├── main.py
 └── README.md
+```
+## Usage
+
+1. **Start the ESP32-CAM Web Server:**
+    - Power on the ESP32-CAM module.
+    - Connect to the serial monitor of the Arduino IDE to find the IP address.
+    - Access the camera feed using the URL displayed in the serial monitor.
+
+2. **Run the Python Script:**
+    - Ensure the ESP32-CAM is connected to the same network as your computer.
+    - Run `main.py` script to start capturing images from the ESP32-CAM and marking attendance.
+
+```
+
+### Notes:
+1. **Folder Structure**: Ensure that the folder structure matches the one described in the `Project Structure` section.
+2. **WiFi Configuration**: Update the WiFi SSID and password in the Arduino script to match your network.
+3. **IP Address**: Update the `url` variable in the Python script with the actual IP address of your ESP32-CAM module.
