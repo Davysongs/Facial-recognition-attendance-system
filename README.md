@@ -1,6 +1,3 @@
-Sure, here is a sample `README.md` file for your GitHub repository containing the Python and Arduino scripts for your facial recognition attendance system project:
-
-```markdown
 # Facial Recognition Attendance System
 
 This project is a facial recognition attendance system that uses an ESP32-CAM module to capture images and a Python script to process the images, recognize faces, and log attendance in a CSV file.
