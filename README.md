@@ -72,7 +72,6 @@ This project is a facial recognition attendance system that uses an ESP32-CAM mo
     - Ensure the ESP32-CAM is connected to the same network as your computer.
     - Run `main.py` script to start capturing images from the ESP32-CAM and marking attendance.
 
-```
 
 ### Notes:
 1. **Folder Structure**: Ensure that the folder structure matches the one described in the `Project Structure` section.
